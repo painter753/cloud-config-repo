@@ -1,2 +1,16 @@
 user:
   role: NotSoSuperDuperOldBuddy
+
+com:
+  lazyboyprod:
+    event:
+      specification: new-spec
+
+      supported:
+        - hello
+        - bye
+        - buy
+        - add
+        - remove
+        - check
+
