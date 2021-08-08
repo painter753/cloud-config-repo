@@ -7,8 +7,6 @@ com:
       specification: new-spec
 
       supported:
-        - hello
-        - bye
         - buy
         - add
         - remove
