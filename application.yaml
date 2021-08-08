@@ -1,3 +1,19 @@
 spring:
   kafka:
     bootstrap-servers: localhost:29092
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health,refresh
+      discovery:
+        enabled: true
+      base-path: /sys
+  endpoint:
+    health:
+      enabled: true
+    refresh:
+      enabled: true
+      
