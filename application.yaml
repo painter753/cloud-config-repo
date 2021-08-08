@@ -1,6 +1,9 @@
 spring:
   kafka:
     bootstrap-servers: localhost:29092
+  cloud:
+    bus:
+      enabled: true  
 
 management:
   endpoints:
