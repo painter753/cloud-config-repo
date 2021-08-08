@@ -1,0 +1,29 @@
+user:
+  role: SuperDuperDeveloper
+
+management:
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health,refresh,metrics,prometheus
+      discovery:
+        enabled: true
+      base-path: /sys
+  endpoint:
+    health:
+      enabled: true
+    refresh:
+      enabled: true
+    metrics:
+      enabled: true
+    prometheus:
+      enabled: true
+
+
+
+
